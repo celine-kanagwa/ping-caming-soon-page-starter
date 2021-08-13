@@ -15,7 +15,7 @@ submitBtn.addEventListener("click", function(e)
     }
     else
     {
-        emailInputElement.style.border = "1px solid hsl(223, 100%, 88%)";
-        emailInputElement.nextElementSibling.textContent = "please provide good email,adress ";    
+        emailInputElement.style.border = "1px solid hsl(223, 100%, 88%)";hhnj
+        emailInputElement.nextElementSibling.textContent = "please provide good email address ";    
     }
 });
