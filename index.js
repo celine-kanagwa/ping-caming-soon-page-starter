@@ -10,12 +10,12 @@ submitBtn.addEventListener("click", function(e)
     {
         e.preventDefault();
         emailInputElement.style.border = "1px solid hsl(354, 100%, 66%)";
-        emailInputElement.nextElementSibling.textContent = "Please provide a valid email address";
+        emailInputElement.nextElementSibling.textContent = "please provide good email address ";
 
     }
     else
     {
-        emailInputElement.style.border = "1px solid hsl(223, 100%, 88%)";hhnj
-        emailInputElement.nextElementSibling.textContent = "please provide good email address ";    
+        emailInputElement.style.border = "1px solid hsl(223, 100%, 88%)";
+        emailInputElement.nextElementSibling.textContent = " email is valid ";    
     }
 });
