@@ -15,12 +15,14 @@ body{
           width: 90%;
           margin: 4em 0 2em 0;
           text-align: center;
+          background-color: aqua;
          
 }
 header img{
           width: 5%;
           max-width: 85%;
-          margin-bottom: 2em;
+          margin-bottom: 1em;
+    
 }
 main h1{
         font-size: 1.5rem;
@@ -91,33 +93,31 @@ input {
   
   main img {
     width: 100%;
-    max-width: 550px;
+    max-width: 450px;
     margin-bottom: 3em;
+    background-color: cadetblue;
+
   }
   
-  .social-links {
-    margin-bottom: 1.5em;
+  .social-links{
+    margin-bottom: 2em;
+    margin-top: -3em;
+    background-color: chartreuse;
   }
   
  /* Style all font awesome icons */
 .fa {
     padding: 20px;
     font-size: 0.5rem;
-    width: 10px;
+    max-width: 20px;
     text-align: center;
     text-decoration: none;
  
   }
+  .fa .fa fa-facebook {
+background-color: coral;
+  }
   
-  /* Add a hover effect if you want 
-  .fa:hover {
-    border: 1px solid hsl(223, 87%, 63%);
-    background-color: hsl(223, 87%, 63%);
-    color: white;
-  }*/
-  
- 
-
   footer p {
     font-size: 0.75rem;
     color: hsl(0, 0%, 59%);
@@ -135,7 +135,7 @@ input {
     }
   
     main img {
-      margin-bottom: 5em;
+      margin-bottom: 8em;
     }
   
     form {
@@ -163,6 +163,9 @@ input {
     input[type="submit"] {
       width: 25%;
       margin-left: 1em;
+    }
+    .social-links {
+      margin-top: -2em;
     }
   }
   
