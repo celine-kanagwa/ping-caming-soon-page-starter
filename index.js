@@ -16,6 +16,6 @@ submitBtn.addEventListener("click", function(e)
     else
     {
         emailInputElement.style.border = "1px solid hsl(223, 100%, 88%)";
-        emailInputElement.nextElementSibling.textContent = " ";    
+        emailInputElement.nextElementSibling.textContent = " valid email";    
     }
 });
